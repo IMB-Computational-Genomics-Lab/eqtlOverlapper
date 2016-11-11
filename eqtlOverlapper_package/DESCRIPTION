@@ -1,0 +1,9 @@
+Package: eqtlOverlapper
+Version: 0.0
+Date: 2016-11-02
+Title: eqtlOverlapper
+Description: Anaylsis pipeline used in "Independent trans-eQTLs identified in whole blood have limited influence on complex disease biology". This package extracts cis- and trans-eQTLs and visualises the trans-eQTLs on a circle plot. To confirm the relevance of the trans-genes to the phenotype of interest, this package produces a QQ plot, showing GWAS SNP p-values around the trans-gene region. SNP p-values points are shown compartmentalised by trans-gene region, as well as aggregated. This package also runs resampling analyses to generate empirical distributions to compare discovery analyses against. Note that this pipeline can be extended to other QTL types (eg. mQTL) and other SNP subsets of interest (or other markers altogether).
+Author: Chloe X Yap <chloe.yap@uq.net.au>
+Maintainer: Chloe X Yap <chloe.yap@uq.net.au>
+License: GPL-2
+RoxygenNote: 5.0.1
